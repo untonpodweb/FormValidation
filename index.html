@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/8035c5043c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+    <div class="nav">
+        <div class="nav-btn">
+            <button class="btnColor" id="btnColor">Поменять цвет фона</button>
+        </div>
+        <div class="nav-lang">
+            <button class="translate" id="lang-ru">Русский</button>
+            <button class="translate" id="lang-eng">English</button>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="title lang">
+            <h2 id="label-title">Создать Аккаунт</h2>
+        </div>
+        <form class="form form-body" id="form">
+            <div class="form__item lang">
+                <label for="username" id="label-name">Ваше Имя</label>
+                <input type="text" name="username" id="username" placeholder="Антон">
+                <i class="fas fa-check"></i>
+                <i class="fas fa-exclamation"></i>
+                <small class="small-ru small-eng">Ошибка</small>
+            </div>
+            <div class="form__item lang">
+                <label for="email" id="label-email">Ваша почта</label>
+                <input type="email" name="email" id="email" placeholder="example@mail.com">
+                <i class="fas fa-check"></i>
+                <i class="fas fa-exclamation"></i>
+                <small class="small-ru small-eng">Ошибка</small>
+            </div>
+            <div class="form__item lang">
+                <label for="password" id="label-password">Пароль</label>
+                <input type="password" name="password" id="password" placeholder="Пароль">
+                <i class="fas fa-check"></i>
+                <i class="fas fa-exclamation"></i>
+                <small class="small-ru small-eng">Ошибка</small>
+            </div>
+            <div class="form__item lang">
+                <label for="password2" id="label-password2">Пароль повторить</label>
+                <input type="password" name="password2" id="password2" placeholder="Пароль повторить">
+                <i class="fas fa-check"></i>
+                <i class="fas fa-exclamation"></i>
+                <small class="small-ru small-eng">Ошибка</small>
+            </div>
+            <button class="lang" id="btnSubmit">Отправить</button>
+        </form>
+    </div>
+</body>
+
+</html>
